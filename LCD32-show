@@ -66,6 +66,3 @@ sudo ./rotate.sh $1
 elif [ $# -gt 1 ]; then
 echo "Too many parameters"
 fi
-
-echo "reboot now"
-sudo reboot
