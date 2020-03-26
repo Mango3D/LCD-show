@@ -22,4 +22,4 @@ sudo sync
 #fi
 #sudo cp ./usr/inittab /etc/
 echo "reboot now"
-sudo reboot
+# sudo reboot
