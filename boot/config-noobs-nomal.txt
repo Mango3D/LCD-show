@@ -65,3 +65,5 @@ dtparam=audio=on
 
 # NOOBS Auto-generated Settings:
 hdmi_force_hotplug=1
+start_x=1             # essential
+gpu_mem=128           # at least, or maybe more if you wish

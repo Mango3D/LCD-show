@@ -62,5 +62,8 @@ dtparam=audio=on
 
 [all]
 #dtoverlay=vc4-fkms-v3d
-start_x=1             # essential
-gpu_mem=128           # at least, or maybe more if you wish
+hdmi_force_hotplug=1
+dtparam=i2c_arm=on
+dtparam=spi=on
+enable_uart=1
+dtoverlay=tft35a:rotate=90

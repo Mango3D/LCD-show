@@ -62,5 +62,3 @@ dtparam=audio=on
 
 [all]
 #dtoverlay=vc4-fkms-v3d
-start_x=1             # essential
-gpu_mem=128           # at least, or maybe more if you wish
